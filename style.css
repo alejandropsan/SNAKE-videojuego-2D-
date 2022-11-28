@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+}
+
+.game_options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    column-span: 10px;
+    place-content: space-evenly
+}
+
+.game_stadistics {
+    display: flex;
+    align-items: baseline;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: brown;
+}
